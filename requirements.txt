@@ -1,0 +1,16 @@
+# Data pipeline: OSM/OpenChargeMap ingestion, tiling, rasterization
+pyrosm>=0.6.2
+geopandas>=0.14
+shapely>=2.0
+rasterio>=1.3
+pyproj>=3.6
+scipy>=1.11
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0
+requests>=2.31
+tqdm>=4.66
+zarr>=2.17,<3.0
+
+# CNN training (optional for the data-prep pipeline, needed once you train)
+torch>=2.2
